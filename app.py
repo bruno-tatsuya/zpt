@@ -9,7 +9,7 @@ def home():
 
 @app.post('/admin_ui')
 def admin_ui():
-    return_url = request.args.get('return_url')
+    return_url = request.form.get('return_url')
     return render_template('admin_ui.html', return_url=return_url)
 
 @app.post('/pull')
