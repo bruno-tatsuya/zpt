@@ -1,0 +1,7 @@
+{
+    "channel_integrations": {
+      "my-zendesk-python": {
+        "manifest_url": "https://zendeskpython.glitch.me/manifest"
+      }
+    }
+  }

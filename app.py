@@ -7,7 +7,7 @@ def home():
     return '<p>Integration service for Zendesk</p>'
 
 
-@app.get('/admin_ui')
+@app.post('/admin_ui')
 def admin_ui():
     return_url = request.args.get('return_url')
     return render_template('admin_ui.html', return_url=return_url)

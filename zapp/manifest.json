@@ -1,0 +1,11 @@
+{
+  "name": "zendeskpython",
+  "requirementsOnly": true,
+  "author": {
+    "name": "bruno",
+    "email": "bruno@apptweak.com"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "version": "1.0"
+}
